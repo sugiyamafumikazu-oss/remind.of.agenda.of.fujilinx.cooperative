@@ -1,0 +1,1 @@
+# remind.of.agenda.of.fujilinx.cooperative
