@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【営業会議レポート】フジリンクス営業会議_20260705</title>
+    <style>
+        :root {
+            --primary-color: #1e3a8a;
+            --secondary-color: #2563eb;
+            --accent-color: #f59e0b;
+            --text-color: #1f2937;
+            --bg-color: #f9fafb;
+            --card-bg: #ffffff;
+            --border-color: #e5e7eb;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans JP", sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        header p {
+            margin: 5px 0;
+            opacity: 0.9;
+            font-size: 15px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-left: 5px solid var(--secondary-color);
+            padding-left: 15px;
+            font-size: 20px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: var(--text-color);
+            font-size: 16px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            background-color: #eff6ff;
+            padding: 8px 12px;
+            border-radius: 4px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 25px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+
+        /* TODO List Style */
+        .todo-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .todo-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed var(--border-color);
+        }
+
+        .todo-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .todo-checkbox {
+            margin-right: 12px;
+            margin-top: 5px;
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+
+        .todo-content strong {
+            color: #111827;
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        .todo-content span {
+            font-size: 14px;
+            color: #4b5563;
+        }
+
+        /* Table Style */
+        .table-responsive {
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 15px;
+        }
+
+        th {
+            background-color: #f3f4f6;
+            color: var(--primary-color);
+            font-weight: 600;
+            padding: 12px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid var(--border-color);
+            vertical-align: top;
+        }
+
+        tr:hover {
+            background-color: #fcfcfc;
+        }
+
+        .badge-urgent {
+            background-color: #fee2e2;
+            color: #991b1b;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 13px;
+        }
+
+        /* Summary Sections */
+        .summary-block {
+            margin-bottom: 20px;
+        }
+
+        .summary-block ul {
+            padding-left: 20px;
+        }
+
+        .summary-block li {
+            margin-bottom: 8px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            font-size: 14px;
+            color: #6b7280;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px auto;
+            }
+            header {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>📋 【営業会議レポート】フジリンクス営業会議_20260705</h1>
+        <p><strong>開催日:</strong> 2026年7月5日</p>
+        <p><strong>目的:</strong> 神奈川県内を対象とした助成金・奨励金をフックにする営業戦略の共有、および新興国への外国人材市場シフトに伴う今後の動向確認。</p>
+    </header>
+
+    <!-- SECTION 1: TODO -->
+    <h2>🎯 今後のTODO（タスク一覧）</h2>
+    <div class="card">
+        <h3>📩 営業・資料準備</h3>
+        <ul class="todo-list">
+            <li class="todo-item">
+                <input type="checkbox" class="todo-checkbox">
+                <div class="todo-content">
+                    <strong>助成金案内用WEBページ（リンク）の共有</strong>
+                    <span>神奈川県の「時給引き上げ奨励金」や「雇用環境整備助成金」の内容がわかるWEBページのリンクを、組合メンバーへ送付する。</span>
+                </div>
+            </li>
+            <li class="todo-item">
+                <input type="checkbox" class="todo-checkbox">
+                <div class="todo-content">
+                    <strong>バングラデッシュ人材導入の見積もり取得・確認</strong>
+                    <span>大使館手続きの優遇コネクションを持つ送り出し機関から見積もりを回収し、既存 of 受け入れ条件と変わりがないか精査する。</span>
+                </div>
+            </li>
+        </ul>
+
+        <h3>💼 顧客・ターゲットへのアプローチ（営業）</h3>
+        <ul class="todo-list">
+            <li class="todo-item">
+                <input type="checkbox" class="todo-checkbox">
+                <div class="todo-content">
+                    <strong>パン業界・既存顧客への案内</strong>
+                    <span>高木さん・板田さん（藤沢で5店舗展開）: 助成金に興味を示されているため、今回のスキームをご案内し、まずは助成金実績を作って関係を強化する。</span>
+                    <span>高崎さん（東神奈川のパン屋・組合の理事担当）: 現状は実習生2名で足りているが、明後日の勉強会・親睦会にて情報提供を行い、将来的な追加やルート切替の「つば付け」を行う。</span>
+                    <span>鈴木さん（クランベーカリー / 新橋ベーカリー関係）: 駅前など好立地で7店舗展開しており好意的なため、状況を見てアプローチする。</span>
+                </div>
+            </li>
+            <li class="todo-item">
+                <input type="checkbox" class="todo-checkbox">
+                <div class="todo-content">
+                    <strong>箱根・湘南エリアのホテル・旅館業界へのアプローチ（岡田さん担当）</strong>
+                    <span>外国人を既に導入している、または検討している宿泊施設へ助成金提案から新規アプローチを図る。（※本社が東京や埼玉であっても、神奈川県内に事業所があれば対象となるため要確認）</span>
+                </div>
+            </li>
+            <li class="todo-item">
+                <input type="checkbox" class="todo-checkbox">
+                <div class="todo-content">
+                    <strong>介護施設へのアプローチ</strong>
+                    <span>外国人雇用の前段階として、外国人未雇用の施設でも使える助成金（業務改善助成金等）を入り口に接点を持つ。</span>
+                </div>
+            </li>
+            <li class="todo-item">
+                <input type="checkbox" class="todo-checkbox">
+                <div class="todo-content">
+                    <strong>新規開拓の網を広げる（赤尾社長ルートの活用）</strong>
+                    <span>商工会議所の議長等を務め、非常に顔が広い赤尾社長との関係を深め、人員手配のタイミング等で「人が欲しい」と話す他社を紹介してもらう。</span>
+                </div>
+            </li>
+        </ul>
+
+        <h3>🔍 リサーチ・アライアンス・組織体制</h3>
+        <ul class="todo-list">
+            <li class="todo-item">
+                <input type="checkbox" class="todo-checkbox">
+                <div class="todo-content">
+                    <strong>ネパール人材ルートの検討</strong>
+                    <span>沼津で送り出し機関を営む顧問先（アリアル・ウメ氏）との面談や連携を視野に入れ、ルート構築を具体化する。</span>
+                </div>
+            </li>
+            <li class="todo-item">
+                <input type="checkbox" class="todo-checkbox">
+                <div class="todo-content">
+                    <strong>外国人材の新興国市場「現地視察計画」の立案</strong>
+                    <span>カンボジア、ネパール、バングラデッシュなどの気質や実際の受け入れ企業の評判（生の声）を確かめるため、視察ツアーの計画・調整を行う。</span>
+                </div>
+            </li>
+            <li class="todo-item">
+                <input type="checkbox" class="todo-checkbox">
+                <div class="todo-content">
+                    <strong>組合の理事報酬・体制の精算</strong>
+                    <span>営業をスムーズに進めるための理事就任に伴い、指摘を受けないための適切な報酬設定（年期末での金額算出）や、交通費・交際費の精算処理の仕組みを確定させる。</span>
+                </div>
+            </li>
+            <li class="todo-item">
+                <input type="checkbox" class="todo-checkbox">
+                <div class="todo-content">
+                    <strong>特定企業（山梨・岐阜の農業再生会社、ベトナム委託の会社等）のニーズ深掘り</strong>
+                    <span>ゴルフコンペ等で繋がった30代経営者（沼津へ茶畑視察予定）や、ベトナム委託から国内店舗へ入れたい企業に対し、工場製造業ルートでの特定技能や補助金活用の可能性を1回繋いで面談する。</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- SECTION 2: SCHEDULE -->
+    <h2>📅 スケジュール（期限・重要日程）</h2>
+    <div class="card">
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 25%;">時期・期限</th>
+                        <th style="width: 35%;">項目・イベント</th>
+                        <th style="width: 40%;">詳細・アクション</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>2026年7月7日（目安）</strong></td>
+                        <td>勉強会・親睦会（千葉）</td>
+                        <td>高崎さん、板田さん等と会う勉強会の場で、助成金情報を配り営業をかける。</td>
+                    </tr>
+                    <tr>
+                        <td><strong>〜2026年7月末</strong></td>
+                        <td>東洋（傘下元）への申請準備</td>
+                        <td>「育成就労制度」への移行を見据え、7月末までにいくつかの案件を固める。</td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge-urgent">2026年9月まで</span></td>
+                        <td><strong>神奈川県「時給引き上げ奨励金」</strong></td>
+                        <td><strong>申請期限</strong>。最低賃金改定（11〜12月頃）と被らないため、今すぐの提案が必須。</td>
+                    </tr>
+                    <tr>
+                        <td><strong>2026年9月〜11月30日</strong></td>
+                        <td><strong>「業務改善助成金」申請期間</strong></td>
+                        <td>申請期間が3ヶ月間と短いため、設備投資や賃上げを絡める企業は今から準備する。</td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge-urgent">2026年10月まで</span></td>
+                        <td><strong>神奈川県「雇用環境整備奨励金」</strong></td>
+                        <td><strong>申請期限</strong>。育児・介護・外国人コース等の就業規則改定の申請リミット。</td>
+                    </tr>
+                    <tr>
+                        <td><strong>2026年9月中</strong></td>
+                        <td>東洋の育成就労関連申請</td>
+                        <td>傘下元である「東洋」が9月に申請を出すため連携。</td>
+                    </tr>
+                    <tr>
+                        <td><strong>〜2027年2月末</strong></td>
+                        <td>現行制度（技能実習）の最終申込</td>
+                        <td>「育成就労制度」へ切り替わる前の、現行制度での最終申請締め切り。</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- SECTION 3: SUMMARY -->
+    <h2>💬 会議内容・議事要旨</h2>
+    
+    <div class="card summary-block">
+        <h3>1. 営業の強力な武器となる「神奈川県限定 助成金・奨励金スキーム」</h3>
+        <p>他社との差別化を図り、人材紹介（フジリンクス）の本業に繋げるための「つば付け」として、以下の強力なトリガーを活用します。社労士側ではAIを活用して迅速な処理体制が整っています。</p>
+        <ul>
+            <li><strong>① 時給引き上げ奨励金（9月まで）:</strong> 時給50円アップで5万円、100円アップで10万円支給（1人あたり、最大300人まで）。最大の特徴は<strong>「短期間（1ヶ月未満、極端には数時間・数日の実績でも要件を満たす可能性）」</strong>でも、雇用保険加入者の引き上げ実績があれば対象になり得ること。</li>
+            <li><strong>② 雇用環境整備の助成金（10月まで / 最大100万円〜180万円）:</strong> 就業規則等の改定・整備のみで高額受給が可能。育児休暇（孫のための育休制定）、介護（社内アンケート実施）、不妊治療休暇の盛り込みで各20万（計60万）。外国人コースとして、就業規則の翻訳（20万）、無給の一時帰国休暇制度の制定（20万）。これらを並行受給することで<strong>最大180万円規模</strong>まで受給可能。企業側の金銭的負担がほぼ無いため非常に響きやすい。</li>
+            <li><strong>③ 業務改善助成金（9月〜11月30日）:</strong> 最低賃金引き上げに伴う設備投資に対し、4分の3などを国が補助する制度。今年は申請期間が短いため、必要な企業へはピンポイントで今から準備を促す。</li>
+        </ul>
+    </div>
+
+    <div class="card summary-block">
+        <h3>2. 外国人材市場の地殻変動と「育成就労制度」への移行</h3>
+        <p>これまで主力だったベトナム人材の「限界」と、新興国への移行の必要性がリアルな現場視点から共有されました。</p>
+        <ul>
+            <li><strong>ベトナム人材の現状と課題:</strong> 現地の経済水準向上による「日本離れ（人が集まらない）」に加え、労働モラルの低下、失踪リスク、離職率の高さが大手受け入れ機関でも深刻視されている。安定稼働を考えると国籍の分散が急務。</li>
+            <li><strong>注目される新興国:</strong> 人口が豊富で労働意欲が高い<strong>ネパール、バングラデッシュ、カンボジア、ミャンマー</strong>等へシフトしつつある。特にホテル業界等ではカンボジアやネパール人材の「日本語力・人当たりの良さ」が好評価を得ている。インドネシアもすでに経済発展が進みつつある。</li>
+            <li><strong>「育成就労」への法改正に伴う企業負担増:</strong> これまでは実習生本人が本国の送り出し機関に支払っていた学校の学費等が、今後は<strong>「企業負担」</strong>になる動きがある。また、母国で日本語検定4〜5級の取得が必須化される見込みであり、これが対応できない場合は日本入国後に企業側で勉強させるコストが発生するため、送り出し側の教育体制の見極めが重要になる。</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 フジリンクス協同組合 営業会議事務局</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
